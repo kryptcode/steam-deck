@@ -4,7 +4,7 @@ const Morales = () => {
   return (
     <div className='relative'>
         <div>
-            <video className='w-full' src={Miles} autoPlay={true} loop={true} controls={false}></video>
+            <video className='w-full' src={Miles} autoPlay={false} loop={true} controls={false}></video>
         </div>
         <div className='absolute bottom-4 left-5 z-10 '>
             <img src="https://cdn.cloudflare.steamstatic.com/steamdeck/images/gamelogo_milesMorales.png" alt="" className='w-40' />
