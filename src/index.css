@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-confetti {
+    background-image: url('./assets/anniversarySale_confetti_1500.jpg');
+    background-size: cover;
+}
+
+.deck-bg {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/laptop_deck_english.png'), url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/overview_laptopanddeck_bg.jpg');
+    background-color: rgb(8, 6, 11);
+    background-size: auto 143%;
+    background-position: center -9em;
+}
+
+@media screen and ( max-width: 700px ) {
+    .deck-bg {
+        background-size: auto 143%;
+        background-position: center -7em;
+    }
+}
