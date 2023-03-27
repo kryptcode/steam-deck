@@ -4,6 +4,7 @@ import EldenRing from "./components/Home/EldenRing"
 import Hero from "./components/Home/Hero"
 import LearnMore from "./components/Home/LearnMore"
 import Morales from "./components/Home/Morales"
+import PreFooter from "./components/Home/PreFooter"
 import Pricing from "./components/Home/Pricing"
 import Stray from "./components/Home/Stray"
 
@@ -19,6 +20,7 @@ function App() {
       <EldenRing />
       <Pricing />
       <Stray />
+      <PreFooter />
     </div>
   )
 }

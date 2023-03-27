@@ -20,6 +20,30 @@
     background-position: center -9em;
 }
 
+.bg-tech-specs {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/overview_techSpecs.svg');
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+.bg-connect {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/overview_dockingstation.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+/* Software ================
+================================================ */
+
+.sw-hero {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/software_hero_device_english.png'), url('https://cdn.cloudflare.steamstatic.com/steamdeck/images/ver2/software_hero_bg.jpg');
+    padding-bottom: 3em;
+    background-color: #e9e9e9;
+}
+
+
 @media screen and ( max-width: 700px ) {
     .deck-bg {
         background-size: auto 143%;
